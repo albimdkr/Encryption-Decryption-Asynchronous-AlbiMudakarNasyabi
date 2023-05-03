@@ -13,7 +13,7 @@ Link Repository
 https://github.com/albimdkr/Encryption-Decryption-Asynchronous-AlbiMudakarNasyabi.git
 <br />
 
-Screen Shoot Program Encryption Decryption Synchronous (symmetric)
+Screen Shoot Program Encryption Decryption Asynchronous
 ![1. Default tampilan](https://github.com/albimdkr/Encryption-Decryption-Asynchronous-AlbiMudakarNasyabi/blob/master/img/1-default.png)
 
 ![2. To Encrypt](https://github.com/albimdkr/Encryption-Decryption-Asynchronous-AlbiMudakarNasyabi/blob/master/img/2-to-encrypt.png) 
