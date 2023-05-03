@@ -1,4 +1,4 @@
-# Encryption-Synchronous-AlbiMudakarNasyabi
+# Encryption-Decryption-Asynchronous-AlbiMudakarNasyabi
 
 Computer Network Security
 <br />
