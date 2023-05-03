@@ -12,11 +12,12 @@
         <h2 class="text-center font-weight-600">Encryption Decryption With Method Asynchronous</h2>
         <h6 class="text-center font-weight-bold">Developed By Albi Mudakar Nasyabi</h6>
         <hr>
-        <!-- <h2 class="text-left font-weight-bold">Encryption</h2> -->
         
-
+        
+        
         <div class="container d-flex justify-content-evenly">
             <div class="private-key">
+              <h2 class="text-left font-weight-bold">Encryption</h2>
                 <div class="mb-3" data-bs-theme="dark">
                     <label for="enter-message" class="form-label">Plain Text</label>
                     <input type="text" class="form-control" id="enter-message" placeholder="Input Plain Text">
@@ -26,20 +27,16 @@
                     <input type="text" class="form-control" id="enter-key" placeholder="Chiper Text">
                   </div>
                   <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Private Key</label>
-                    <input type="text" class="form-control" id="result-encrypt" placeholder="Private Key">
-                  </div>
-                  <div class="mb-3" data-bs-theme="dark">
-                    <label for="enter-message" class="form-label">Plain Text</label>
-                    <input type="text" class="form-control" id="enter-message" placeholder="Input Plain Text">
+                    <label for="exampleFormControlInput1" class="form-label">Public Key</label>
+                    <input type="text" class="form-control" id="result-encrypt" placeholder="Enter Public Key">
                   </div>
                   <button type="button" class="btn btn-primary" id="btn-encrypt" >Encrypt</button>
             </div>
               
               <hr>
     
-            <!-- <h2 class="text-left font-weight-bold">Decryption</h2> -->
               <div class="public-key">
+                <h2 class="text-left font-weight-bold">Decryption</h2>
                   <div class="mb-3">
                       <label for="exampleFormControlInput1" class="form-label">Plain Text</label>
                       <input type="text" class="form-control" id="encrypted-message" placeholder="Input Plain Text">
@@ -49,13 +46,9 @@
                       <input type="text" class="form-control value-key" id="value-key" placeholder="Chiper Text">
                     </div>
                     <div class="mb-3">
-                      <label for="exampleFormControlInput1" class="form-label">Public Key</label>
-                      <input type="text" class="form-control" id="result-decrypt" placeholder="Public Key">
+                      <label for="exampleFormControlInput1" class="form-label">Private Key</label>
+                      <input type="text" class="form-control" id="result-decrypt" placeholder="Private Key">
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Plain Text</label>
-                        <input type="text" class="form-control" id="encrypted-message" placeholder="Input Plain Text">
-                      </div>
                     <button type="button" class="btn btn-outline-warning" id="btn-decrypt">Decrypt</button>
                   </div>
               </div>
